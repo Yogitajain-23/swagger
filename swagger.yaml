@@ -1,6 +1,6 @@
 openapi: 3.0.3
 info:
-  title: Ti-detection Server
+  title: Ti-detection Server-1
   description: The TI detection attack server, a.k.a. the silverback server provides REST APIs that execute DNS based malware attacks.The server acts as a `Blox1Endpoint client` that sends various DNS requests to a B1TD NS resolver. If such an endpoint is not available, the silverback server will create it using the credentials of a registered B1TD account. All the APIs provided by the silverback server expect the email and password of the account for which the DNS attack is performed. If a Blox1Endpoint for the account used in API request is known to the server, it will be reused. Otherwise, a new Blox1Endpint will be created on the B1TD resolver using the provided account.
   
   
