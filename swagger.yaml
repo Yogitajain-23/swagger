@@ -994,7 +994,6 @@ components:
           items:
           $ref: '#/components/schemas/DGAQueriesResponse'
     DNSTQueriesResponse:
-      type: object
       properties: 
         queries:
           type: string
