@@ -963,7 +963,6 @@ components:
           example: "Yes"
           description: "`Yes` if this domain detected in custom-list else `No`"
     DGAApiResponse:
-      type: object
       properties:
         detected:
           type: string
@@ -1010,7 +1009,6 @@ components:
           example: "2023-01-17T10:23:22.779081Z"
           description: "Time at which this query will be send"
     DNSTApiResponse:
-      type: object
       properties:
         detected:
           type: string
