@@ -5,6 +5,7 @@ window.onload = function() {
   window.ui = SwaggerUIBundle({
     url: "swagger.yaml",
     dom_id: '#swagger-ui',
+    supportedSubmitMethods: [],
     deepLinking: true,
     presets: [
       SwaggerUIBundle.presets.apis,
@@ -14,6 +15,7 @@ window.onload = function() {
       SwaggerUIBundle.plugins.DownloadUrl
     ],
     layout: "StandaloneLayout"
+    
   });
 
   //</editor-fold>
