@@ -945,6 +945,7 @@ components:
           type: string
           example: "NO_OPERATION"
     DGAQueriesResponse:
+      type: object
       properties:
         queries:
           type: string
@@ -995,6 +996,7 @@ components:
           items:
             $ref: '#/components/schemas/DGAQueriesResponse'
     DNSTQueriesResponse:
+      type: object
       properties: 
         queries:
           type: string
